@@ -652,6 +652,9 @@ p.aut{
 	width: 353px;
 	height: 235px;
 }
+#da-thumbs h4{
+	color: #fff;
+}
 .da-thumbs li {
   float: left;
   margin: 0.4%;
