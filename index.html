@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- for-gallery-rotation -->
+<script src="js/modernizr.custom.97074.js"></script>
+<!-- //for-gallery-rotation -->
+<!-- FlexSlider -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					  </script>
+<!-- //FlexSlider -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900" rel="stylesheet">
+</head>
+
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-nav">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							<h1><a class="navbar-brand" href="index.html"><img style="height: 52px" src="./images/logo.png" alt=""></a></h1>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav">
+						<li class="hvr-sweep-to-bottom active"><a href="index.html">首页</a></li>
+						 <li class="hvr-sweep-to-bottom"><a href="#services" class="scroll">SWOT分析</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#about" class="scroll">stp理论分析</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#gallery" class="scroll">4P营销策略</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#contact" class="scroll">总结</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<!--<section class="slider">-->
+				<!--<div class="flexslider">-->
+					<!--<ul class="slides">-->
+						<!--<li>-->
+							<!--<div class="banner-info">-->
+								<!--<div class="banner-info-left">-->
+									<!--<h3>Baked fresh for you </h3>-->
+									<!--<p>WE ARE EXCITED TO COOK FOR YOU TODAY</p>-->
+
+								<!--</div>-->
+							<!--</div>-->
+						<!--</li>-->
+						<!--<li>-->
+							<!--<div class="banner-info">-->
+								<!--<div class="banner-info-left">-->
+									<!--<h3>Baked fresh Daily </h3>-->
+									<!--<p>WE ARE EXCITED TO COOK FOR YOU TODAY</p>-->
+
+								<!--</div>-->
+							<!--</div>-->
+						<!--</li>-->
+						<!--<li>-->
+							<!--<div class="banner-info">-->
+								<!--<div class="banner-info-left">-->
+									<!--<h3>Baked fresh for you </h3>-->
+									<!--<p>WE ARE EXCITED TO COOK FOR YOU TODAY</p>-->
+
+								<!--</div>-->
+							<!--</div>-->
+						<!--</li>-->
+					<!--</ul>-->
+				<!--</div>-->
+			<!--</section>-->
+			<!--<div class="banner-pos">-->
+				<!--<div class="col-md-3 banner-pos-left">-->
+					<!--<div class="banner-pos-left-info">-->
+						<!--<h3><i class="glyphicon glyphicon-cloud" aria-hidden="true"></i> OUR BREADS</h3>-->
+						<!--<p>To take a trivial example, which of us ever undertakes laborious-->
+							<!--physical exercise.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 banner-pos-left">-->
+					<!--<div class="banner-pos-left-info">-->
+						<!--<h3><i class="glyphicon glyphicon-globe" aria-hidden="true"></i> BEST COOKIES</h3>-->
+						<!--<p>To take a trivial example, which of us ever undertakes laborious-->
+							<!--physical exercise.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 banner-pos-left">-->
+					<!--<div class="banner-pos-left-info">-->
+						<!--<h3><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> WEDDING CAKES</h3>-->
+						<!--<p>To take a trivial example, which of us ever undertakes laborious-->
+							<!--physical exercise.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 banner-pos-left">-->
+					<!--<div class="banner-pos-left-info">-->
+						<!--<h3><i class="glyphicon glyphicon-star" aria-hidden="true"></i>TARTS AND PIES</h3>-->
+						<!--<p>To take a trivial example, which of us ever undertakes laborious-->
+							<!--physical exercise.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="clearfix"> </div>-->
+			<!--</div>-->
+		</div>
+	</div>
+<!-- //banner -->
+<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<h2>Welcome !</h2>
+			<!--<p class="ever">We Make it Happens,Something Amazing For You Everyday.</p>-->
+			<div class="welcome-grids">
+				<p> &nbsp;&nbsp;52钢琴是微贷网和杭州租琴网合力以中古钢琴租售+教育平台为目标的项目。<br/>
+					&nbsp;&nbsp;52租琴作为杭州租琴网的一个项目，可以利用很多杭州租琴网的资源，而杭州租琴网是租客享受钢琴的世界，作为杭州首家并且经营规模庞大的钢琴租赁平台，是集钢琴租赁、销售、置换、调律为一体的专业租赁网站， “每天3元，KAWAI和YAMAHA钢琴送到家”。
+					<br/>
+					&nbsp;&nbsp;支持线上线下同时运营，实体展厅（已落户下沙浙江理工大学）和淘宝店（网页链接 ）均面向琴友和琴行批发兼零，等待您的光顾！您的指尖停留于杭州租琴网，让钢琴琴音引领您进入天籁殿堂。
+					<br/>
+					&nbsp;&nbsp;杭州租琴网厂家直供，全省最低价，专业配送方便快捷，每台钢琴出厂前均由从事钢琴行业30多年的资深技师进行调整、调音、整音等，钢琴确保手感舒适，音色圆润，是音乐爱好人士和琴爸琴妈的首选。并且郑重承诺：只租赁、销售真正的、A级保养状态的日本原装品牌钢琴，100%真品保证，假一罚十；同时还提供钢琴回购与置换服务，让顾客无后顾之忧；若租转售，还可以免费体验三个月用琴服务。乐动你我，音传天下。</p>
+				<!--<div class="col-md-3 welcome-grid">-->
+					<!--<div class="welcome-grd">-->
+						<!--<div class="icons">-->
+							<!--<span class="glyphicon glyphicon-cutlery"></span>-->
+						<!--</div>-->
+						<!--<h4>OUR BREADS</h4>-->
+						<!--<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit-->
+							<!--esse quam.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 welcome-grid">-->
+					<!--<div class="welcome-grd">-->
+						<!--<div class="icons">-->
+							<!--<span class="glyphicon glyphicon-fire" aria-hidden="true"></span>-->
+						<!--</div>-->
+						<!--<h4>BEST COOKIES</h4>-->
+						<!--<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit-->
+							<!--esse quam.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 welcome-grid">-->
+					<!--<div class="welcome-grd">-->
+						<!--<div class="icons">-->
+							<!--<span class="glyphicon glyphicon-filter" aria-hidden="true"></span>-->
+						<!--</div>-->
+						<!--<h4>WEDDING CAKES</h4>-->
+						<!--<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit-->
+							<!--esse quam.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 welcome-grid">-->
+					<!--<div class="welcome-grd">-->
+						<!--<div class="icons">-->
+							<!--<span class="glyphicon glyphicon-send" aria-hidden="true"></span>-->
+						<!--</div>-->
+						<!--<h4>TARTS AND PIES</h4>-->
+						<!--<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit-->
+							<!--esse quam.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //welcome -->
+<!-- banner-text -->
+	<div class="banner-text">
+		<div class="container">
+			<div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf">
+								<!--<h3>Treat yourself with a sweet, freshly baked goodie</h3>-->
+							</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf1">
+								<!--<h3>Everyone knows, that treating yourself with tasty</h3>-->
+							</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf2">
+								<!--<h3>Treat yourself with a sweet, freshly baked goodie</h3>-->
+							</div>
+						</div>
+					</article>
+
+				</div>
+			</div>
+				<script src="js/jquery.wmuSlider.js"></script>
+					<script>
+						$('.example1').wmuSlider();
+					</script>
+		</div>
+	</div>
+<!-- //banner-text -->
+<!-- services -->
+	<div id="services" class="services">
+		<div class="container">
+			<h3 class="ser">SWOT分析</h3>
+		<p class="ever">针对目前的市场环境做出了SWOT分析</p>
+			<div class="services-top">
+				<div class="col-md-12 services-top-left">
+					<div class="services-top-main">
+						<div class="col-md-3 services-left service-img">
+							<a href="images/55.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/55.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-9 services-left">
+							<h4>优势</h4>
+							<p>52租琴项目依托了中古钢琴1.0时代和2.0时代，其中1.0时代奠定了中古钢琴买卖租售业务区域领先地位，并依托线下营业部，实现业务模式1.0闭环，2.0时代虽仍在进行中，但已有起色，2.0时代对1.0进行了多方位的完善和扩展，在业务发展方法上，2.0在1.0时代的基础上加大了内外部IT系统的建设，进行更积极的业务和区域扩张，并建立了多个网点，在平台建设上也越来越完善。52钢琴还构建了一套完整的“钢琴买卖租换交易”网络体系，需求方，供给方，客户，咨询顾问，咨询顾问合作关系网络之间有着明确的分工，使得交易更加的便捷。
+								经过二轮融资，拥有2000万的发展基金，使得52租琴在一轮的500万基础上能够更上一层楼，使得52租琴的业务可以肆无忌惮地拓展。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="services-top-main">
+						<div class="col-md-3 services-left service-img">
+							<a href="images/55.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/55.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-9 services-left">
+							<h4>劣势</h4>
+							<p>如果对杭州租琴网研究比较仔细一点的都会发现，网上并找不到对杭州租琴网的企业文化，经营理念以及发展历程做出介绍的网站。人民的生活水平得到提高之后，大家都越来越注重品牌效应，虽然我们的产品是大牌的钢琴，但是我们并没有一个值得信赖并一目了然的根基。作为一家没有自己产品的公司，在产品方面并没有足够的优势去吸引顾客。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-12 services-top-left">
+					<div class="services-top-main">
+						<div class="col-md-3 services-left service-img">
+							<a href="images/55.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/55.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-9 services-left">
+							<h4>机会</h4>
+							<p>中古钢琴在中国拥有极大的市场空间，中国每百户城镇居民拥有3.51架，而我们的平价居民钢琴数量远低于台湾和日本，就目前的市场而言，中国有5000万钢琴学习者，按人均10万元/年的消费额度，市场空间约为5万亿元/年，中国的经济正在发展，居民也越来越重视对孩子的培养，所以在未来几年中钢琴市场仍有上升的空间。但在钢琴市场这块大蛋糕中，并没有一个企业能占主导地位，所以对52钢琴来说，这是一个发展的机会。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="services-top-main">
+						<div class="col-md-3 services-left service-img">
+							<a href="images/55.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/55.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-9 services-left">
+							<h4>威胁</h4>
+							<p>虽然杭州租琴网在杭州已经有了一定规模，但在全国的租琴市场中仍需做出一些努力来占据更大的市场份额。目前开心租琴网作为租琴市场中的最大的平台，虽然它的业务范围主要在广东、珠海、深圳、东莞及全国，和杭州租琴网并没有过多的直接业务竞争但开心租琴网也在致力发展全国业务，并且拥有经验丰富的靠谱团队，在行业内发展了7年以上；在各大城市均设有一定规模的实体展厅，；首家o2o租琴模式，o2o运营经验丰厚；满足用户个性化用琴需求，多样化的租琴服务。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+				<!--swipebox -->
+				<link rel="stylesheet" href="css/swipebox.css">
+					<script src="js/jquery.swipebox.min.js"></script>
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+				<!--//swipebox Ends -->
+		</div>
+	</div>
+	<!--<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>-->
+	<div class="services1">
+		<div class="container">
+			<h3>Our bigboys</h3>
+			<p class="ever">Thank the big men for their hard work.</p>
+			<div class="services-grids wthree-agile">
+				<div class="col-md-4 services-grid">
+					<div class="para">
+						<span><img src="images/55.png" alt="" class="img-responsive"  style="width: 100px;height: 100px"/></span>
+						<p>这里没有介绍这里没有介绍这里没有介绍这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid">
+					<div class="para">
+						<span><img src="images/55.png" alt="" class="img-responsive" style="width: 100px;height: 100px"/></span>
+						<p>这里没有介绍这里没有介绍这里没有介绍这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍这里没有介绍
+							这里没有介绍这里没有介绍
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //services -->
+<!-- about -->
+	<div id="about" class="advantages">
+		<div class="container">
+			<h3>Our Analysis</h3>
+			<div class="our-advantages-grids w3layouts-agile">
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>1.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>市场细分</h4>
+						<p>通过市场细分对企业的生产、营销起着极其重要的作用</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>2.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>目标市场</h4>
+						<p>从生理学、心理学角度考虑，孩子在4、5岁以后，无论大脑的发育，还是注意力、认知能力、理解力等方面都具备了良好的前提</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>3.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>产品定位</h4>
+						<p>产品定位是通过为自己的产品创立鲜明的个性，从而塑造出独特的市场形象来实现的</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="history">
+		<div class="container">
+			<div class="col-md-6 history-left">
+				<h3>市场细分</h3>
+				<div class="history-left-grid">
+					<!--<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>21.7.2016</p>-->
+					<!--<h4>consequatur aut perferendis</h4>-->
+					<p class="aut">1、有利于选择目标市场和制定市场营销策略。 市场细分后的子市场比较具体，比较容易了解消费者的需求，企业可以根据自己经营思想、方针及生产技术和营销力量，确定自己的服务对象，即目标市场。针对着较小的目标市场，便于制定特殊的营销策略。同时，在细分的市场上，信息容易了解和反馈，一旦消费者的需求发生变化，企业可迅速改变营销策略，制定相应的对策，以适应市场需求的变化，提高企业的应变能力和竞争力。</p>
+				</div>
+				<div class="history-left-grid">
+					<!--<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>28.7.2016</p>-->
+					<!--<h4>consequatur aut perferendis</h4>-->
+					<p class="aut">2、有利于发掘市场机会，开拓新市场。 通过市场细分，企业可以对每一个细分市场的购买潜力、满足程度、竞争情况等进行分析对比，探索出有利于本企业的市场机会，使企业及时作出投产、移地销售决策或根据本企业的生产技术条件编制新产品开拓计划，进行必要的产品技术储备，掌握产品更新换代的主动权，开拓新市场，以更好适应市场的需要。</p>
+				</div>
+				<div class="history-left-grid">
+					<!--<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>03.8.2016</p>-->
+					<!--<h4>consequatur aut perferendis</h4>-->
+					<p class="aut">3、有利于集中人力、物力投入目标市场。 任何一个企业的资源、人力、物力、资金都是有限的。通过细分市场，选择了适合自己的目标市场，企业可以集中人、财、物及资源，去争取局部市场上的优势，然后再占领自己的目标市场。</p>
+				</div>
+				<div class="history-left-grid">
+					<!--<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>03.8.2016</p>-->
+					<!--<h4>consequatur aut perferendis</h4>-->
+					<p class="aut">4、有利于企业提高经济效益。 前面三个方面的作用都能使企业提高经济效益。除此之外，企业通过市场细分后，企业可以面对自己的目标市场，生产出适销对路的产品，既能满足市场需要，又可增加企业的收入；产品适销对路可以加速商品流转，加大生产批量，降低企业的生产销售成本，提高生产工人的劳动熟练程度，提高产品质量，全面提高企业的经济效益。</p>
+				</div>
+			</div>
+			<div class="col-md-6 history-right">
+				<h4>从产品方面看</h4>
+				<p>钢琴所满足的群体是重视个人素质拓展的群体，随着经济的发展，人们对生活品质要求越来越高，越来越多的人追求精神富足，而钢琴不管是对人的气质还是精神都能有很大的提升，能够很好地满足大家对品质的追求</p>
+				<h4>从价格方面看</h4>
+				<p>中古钢琴不需要像钢琴那样需要耗费巨资来获得品质和音质都好的钢琴，中古钢琴以租赁的方式可以极低的价格来获得高品质钢琴，正如杭州租琴网的口号一样:每天3元，KAWAI和YAMAHA钢琴送到家。租琴可以适用于任何阶级，租琴既可以避免浪费，又可以满足对钢琴的需求，等到不用的时候还可以还不占空间，比起传统的钢琴市场拥有更大的市场空间。</p>
+				<h4>从心理方面看</h4>
+				<p>每天3元仍能使用雅马哈等大牌钢琴，除了钢琴的品质有保证，就算是租赁钢琴也能享受钢琴带给人的愉悦感以及满足感。</p>
+				<!--<h4>voluptatibus maiores alias</h4>-->
+				<!--<p>To take a trivial example, which of us ever undertakes laborious physical-->
+					<!--exercise, except to obtain some advantage from it? But who has any right to-->
+					<!--find fault with a man who chooses to enjoy a pleasure.</p>-->
+				<!--<ul>-->
+					<!--<li><a href="#">recusandae aut perferendis</a></li>-->
+					<!--<li><a href="#">voluptatibus maiores alias</a></li>-->
+					<!--<li><a href="#">molestiae non recusandae</a></li>-->
+					<!--<li><a href="#">alias consequatur voluptates</a></li>-->
+					<!--<li><a href="#">tenetur a sapiente delectus</a></li>-->
+					<!--<li><a href="#">earum rerum hic tenetur</a></li>-->
+				<!--</ul>-->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="container" style="margin-top: 1.5em">
+			<div class="col-md-6 history-left">
+				<h3>目标市场</h3>
+				<div class="history-left-grid">
+					<!--<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>21.7.2016</p>-->
+					<!--<h4>consequatur aut perferendis</h4>-->
+					<p class="aut">从生理学、心理学角度考虑，孩子在4、5岁以后，无论大脑的发育，还是注意力、认知能力、理解力等方面都具备了良好的前提。在教学实践中也发现，年龄稍大的孩子接受能力更强、自觉性更高、学习进度更快，甚至于学一年可以超过3、4岁的孩子学几年。到了5岁，孩子的皮质细胞已大致分化完成，中枢神经系统更趋成熟，肌肉的发育也更加完善，这为学习钢琴提供了良好的生理条件。因此，通常认为女孩在4-5周岁，男孩在5-6周岁就可以开始学琴了。</p>
+				</div>
+			</div>
+			<div class="col-md-6 history-right">
+				<h4>学钢琴也有很多好处</h4>
+				<p>1、学习钢琴能很好地开发儿童的智力，演奏钢琴时调动了人体很多的器官，通过手、眼、耳、脚、口、脑、身的并用，能锻炼人的协调能力，反应能力，记忆能力，学钢琴的孩子一般学习成绩都不错。</p>
+				<p>2、学钢琴能培养儿童的非智力因素，表现在：培养人的气质，陶冶人的性情，锻炼人的毅力，培养独立思考和解决问题的能力等。学钢琴的孩子自信、自立，精力容易集中，做事不马虎，将来更容易成才。</p>
+				<!--<h4>从价格方面看</h4>-->
+				<!--<p>中古钢琴不需要像钢琴那样需要耗费巨资来获得品质和音质都好的钢琴，中古钢琴以租赁的方式可以极低的价格来获得高品质钢琴，正如杭州租琴网的口号一样:每天3元，KAWAI和YAMAHA钢琴送到家。租琴可以适用于任何阶级，租琴既可以避免浪费，又可以满足对钢琴的需求，等到不用的时候还可以还不占空间，比起传统的钢琴市场拥有更大的市场空间。</p>-->
+				<!--<h4>从心理方面看</h4>-->
+				<!--<p>每天3元仍能使用雅马哈等大牌钢琴，除了钢琴的品质有保证，就算是租赁钢琴也能享受钢琴带给人的愉悦感以及满足感。</p>-->
+				<!--<h4>voluptatibus maiores alias</h4>-->
+				<!--<p>To take a trivial example, which of us ever undertakes laborious physical-->
+				<!--exercise, except to obtain some advantage from it? But who has any right to-->
+				<!--find fault with a man who chooses to enjoy a pleasure.</p>-->
+				<!--<ul>-->
+				<!--<li><a href="#">recusandae aut perferendis</a></li>-->
+				<!--<li><a href="#">voluptatibus maiores alias</a></li>-->
+				<!--<li><a href="#">molestiae non recusandae</a></li>-->
+				<!--<li><a href="#">alias consequatur voluptates</a></li>-->
+				<!--<li><a href="#">tenetur a sapiente delectus</a></li>-->
+				<!--<li><a href="#">earum rerum hic tenetur</a></li>-->
+				<!--</ul>-->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="container" style="margin-top: 1.5em">
+			<div class="col-md-12 history-left">
+				<h3>产品定位</h3>
+				<div class="history-left-grid">
+					<!--<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>21.7.2016</p>-->
+					<!--<h4>consequatur aut perferendis</h4>-->
+					<p class="aut">产品定位是通过为自己的产品创立鲜明的个性，从而塑造出独特的市场形象来实现的。一项产品是多个因素的综合反映，包括性能、构造、成分、包装、形状、质量等，市场定位就是要强化或放大某些产品因素，从而形成与众不同的独特形象。产品差异化乃是实现市场定位的手段，但并不是市场定位的全部内容。产品定位不仅强调产品差异，而且要通过产品差异建立独特的市场形象，赢得顾客的认同。 产品定位是在对市场分析和细分化的基础上，寻求建立某种产品特色。52钢琴于传统的钢琴买卖和钢琴租赁不同，而是集租赁与培训为一体，我们除了提供更为便宜但品质相同的钢琴外还提供了更为便宜的培训，让大家在享受到产品的同时还能比其他同样享受产品的人获得更多的钢琴培训。我们为52钢琴做出了广告语“让优秀的成本变的更低”，正如杭州租琴网的口号一样，“每天3元，KAWAI和YAMAHA钢琴送到家”每天3元就算是没有工作能力的学生也能负担地起，而且相对于其他乐器或者钢琴，中古钢琴的成本明显更低更容易让人接受，所以我们与其他钢琴买卖和钢琴租赁竞争对手不同，把自己定位为让大众都能接受的高品质生活。</p>
+				</div>
+			</div>
+			<!--<div class="col-md-6 history-right">-->
+				<!--<h4>学钢琴也有很多好处</h4>-->
+				<!--<p>1、学习钢琴能很好地开发儿童的智力，演奏钢琴时调动了人体很多的器官，通过手、眼、耳、脚、口、脑、身的并用，能锻炼人的协调能力，反应能力，记忆能力，学钢琴的孩子一般学习成绩都不错。</p>-->
+				<!--<p>2、学钢琴能培养儿童的非智力因素，表现在：培养人的气质，陶冶人的性情，锻炼人的毅力，培养独立思考和解决问题的能力等。学钢琴的孩子自信、自立，精力容易集中，做事不马虎，将来更容易成才。</p>-->
+				<!--&lt;!&ndash;<h4>从价格方面看</h4>&ndash;&gt;-->
+				<!--&lt;!&ndash;<p>中古钢琴不需要像钢琴那样需要耗费巨资来获得品质和音质都好的钢琴，中古钢琴以租赁的方式可以极低的价格来获得高品质钢琴，正如杭州租琴网的口号一样:每天3元，KAWAI和YAMAHA钢琴送到家。租琴可以适用于任何阶级，租琴既可以避免浪费，又可以满足对钢琴的需求，等到不用的时候还可以还不占空间，比起传统的钢琴市场拥有更大的市场空间。</p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<h4>从心理方面看</h4>&ndash;&gt;-->
+				<!--&lt;!&ndash;<p>每天3元仍能使用雅马哈等大牌钢琴，除了钢琴的品质有保证，就算是租赁钢琴也能享受钢琴带给人的愉悦感以及满足感。</p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<h4>voluptatibus maiores alias</h4>&ndash;&gt;-->
+				<!--&lt;!&ndash;<p>To take a trivial example, which of us ever undertakes laborious physical&ndash;&gt;-->
+				<!--&lt;!&ndash;exercise, except to obtain some advantage from it? But who has any right to&ndash;&gt;-->
+				<!--&lt;!&ndash;find fault with a man who chooses to enjoy a pleasure.</p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<ul>&ndash;&gt;-->
+				<!--&lt;!&ndash;<li><a href="#">recusandae aut perferendis</a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;<li><a href="#">voluptatibus maiores alias</a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;<li><a href="#">molestiae non recusandae</a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;<li><a href="#">alias consequatur voluptates</a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;<li><a href="#">tenetur a sapiente delectus</a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;<li><a href="#">earum rerum hic tenetur</a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;</ul>&ndash;&gt;-->
+			<!--</div>-->
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //about -->
+<!-- newsletter -->
+	<!--<div class="newsletter w3layouts-agile">-->
+		<!--<div class="container">-->
+			<!--<div class="newsletter-info-agile-w3ls">-->
+				<!--<h3>Newsletter</h3>-->
+				<!--<div class="letter">-->
+				<!--<form action="#" method="post">-->
+
+									<!--<input type="email" placeholder="Enter Your Mail..." required="">-->
+
+
+									<!--<input type="submit" value="" >-->
+
+							<!--</form>-->
+				<!--</div>-->
+				<!--<div class="clearfix"> </div>-->
+
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+<!-- //newsletter -->
+<!-- gallery -->
+	<div id="gallery" class="gallery">
+		<div class="container">
+			<h3>4P营销策略</h3>
+		<p class="ever">Here are some of our ideas.</p>
+			<div class="gallery-grids">
+				<section>
+					<ul id="da-thumbs" class="da-thumbs">
+						<li>
+							<a href="images/14.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/14.jpg" alt="" />
+								<div>
+									<h4>产品策略</h4>
+									<span>我们可借助当下的粉丝效应，邀请具有正能量或者在钢琴领域比较突出的人来给我们的52租琴代言，但是考虑到明星代言经费问题，我们的想法是与向天歌版权所有者谈合作，向天歌作为网络虚拟红人，不存在负面影响，而且代言费也会便宜很多。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/6.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/6.jpg" alt="" />
+								<div>
+									<h4>产品策略</h4>
+									<span>在节假日可制作以节日为主题的H5或小视频在各大社交平台推广，例如国庆节，可以录一个弹一首我喜欢的歌给祖国的小视频，在抖音、微博以及其他的社交平台发布。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/7.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/7.jpg" alt="" />
+								<div>
+									<h4>产品策略</h4>
+									<span>可与教育平台合作。目前各大钢琴企业纷纷将注意力转向将音乐教育等钢琴后服务市场,通过组织音乐推广活动、开展钢琴比赛、开设艺术培训中心、开发音乐教育软件、研发音乐教材、推广音乐课程等形式拓展钢琴后服务产业链。珠江、海伦等企业积极推进品牌艺术教室项目,致力推广音乐艺术教育的数字化课程以及数码钢琴和周边产品的销售,全力推动钢琴音乐教育产业链的整合发展。各类钢琴赛事中音乐会与大师讲座交互进行,品牌文化院校资源有机嫁接。对于中古钢琴来说这也是一个很好的发展方向，与夏令营、大师班等教育机构的合作能使中古钢琴的地位更加正统。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/8.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/8.jpg" alt="" />
+								<div>
+									<h4>产品策略</h4>
+									<span>完善售后服务。我们小组认为，不管是产品的售后还是培训的售后我们都已经努力跟进。钢琴作为占地面积较大，又不易移动的物品，若是出现问题，修理便成了很大一个问题，而我们在售后方面的跟进和完善能够使我们的口碑越来越好。在培训方面也是这样，我们除了对顾客进行常规培训外，我们还可以在平常对顾客做出一些专业性指导，以及推出免费解决顾客关于钢琴的简单问题。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/9.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/9.jpg" alt="" />
+								<div>
+									<h4>价格策略-折扣定价法</h4>
+									<span> 例如充值一千我们可以送一百的优惠券，并使用会员制，会员定期有活动或者优惠，折扣除了钢琴也通用于钢琴培训课程。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/10.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/10.jpg" alt="" />
+								<div>
+									<h4>价格策略-差别定价法</h4>
+									<span>差别定价又称“弹性定价”，是一种“依赖顾客支付意愿”而制定不同价格的定价法，其目的在于建立基本需求、缓和需求的波动和刺激消费。中古钢琴原本就是以低价来挖掘客户，我们将培训课程分为学员班，导师班，大师班。学员班的价格最低，大师班的价格高于学员班和导师班，但大师班的培训老师水平及在课前课后所享受的服务也是最好的。通过培训课程的差别定价来让大家在低价中仍能享受尊贵的感觉。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/11.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/11.jpg" alt="" />
+								<div>
+									<h4>价格策略-心理定价法</h4>
+									<span>每一件产品都能满足消费者某一方面的需求，其价值与消费者的心理感受有着很大的关系。 这就为心理定价策略的运用提供了基础，使得企业在定价时可以利用消费者心理因素，有意识地将产品价格定得高些或低些，以满足消费者生理的和心理的、物质的和精神的多方面需求，通过消费者对企业产品的偏爱或忠诚，扩大市场销售，获得最大效益。即根据消费者购买商品时的心理制定产品价格，我们可对培训课程选取尾数定价法，例如一节培训课价格为199元。</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/12.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/12.jpg" alt="" />
+								<div>
+									<h4>促销策略</h4>
+									<span>在促销方面我们可以采用熟人推荐的模式，例如我们的客户可以通过推荐身边的亲戚朋友租琴或者买琴来获取优惠或者免费使用新钢琴的机会，推荐越多的人获得的优惠越多，例如推荐5个人可获免费试用钢琴一个月，实际推荐人数按租赁或者买入钢琴的人数为准，并且由熟人推荐的客户也拥有一些优惠或者免费试用的机会。
+										<br/>促销除了钢琴上的优惠，我们还定制了培训的优惠活动，结合以上会员制度，会员可享8折优惠，非会员可通过介绍身边的人培训来达到折扣，成功推荐一人培训可享9折，二人8折，以此类推5折封顶。
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/13.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="images/13.jpg" alt="" />
+								<div>
+									<h4>渠道策略</h4>
+									<span>杭州租琴网原先以租售中古钢琴为主，同时还提供钢琴回购与置换服务。但是在渠道方面除了拥有值得信赖的产品我们小组觉得还可以增加代租售业务，我们可以构建一个平台，作为一个中间商，代替家里有多余或者空缺钢琴的客户租售他们的钢琴，这样他们和我们的联系会连绵不断。二轮融资的2000万可主要用于渠道的开发。在2.0计划中外部的IT计划已经到了一定的阶段，而我们现在的中间商计划也将是IT建设的一部分。</span>
+								</div>
+							</a>
+						</li>
+
+					</ul>
+					<h4>综合以上营销策划</h4>
+					<p>
+						我们将把二轮融资的2000万主要用于渠道的建设-构建平台、产品的推广，增加客户。其中，构建平台需要设立IT部门，前期IT人员的成本将会占很大一块比重，等平台稳固下来便可节约很多开支，而且租琴的效率也会得到很大提升。产品推广方面，不管是新媒体推广还是传统的销售推广也都需要占很大一块开支。在增加客户方面这方面，主要通过各种促销及活动吸引顾客。
+					</p>
+				</section>
+				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+				<script type="text/javascript">
+					$(function() {
+
+						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+<!-- //gallery -->
+<!-- contact -->
+	<div id="contact" class="contact">
+	<div class="container">
+		<h3>总结</h3>
+		<p style="margin-top: 20px">52钢琴想要做大做强做久最基本的便是产品品质，只有一个好的产品我们才能在此基础上做出各种营销方式，然而营销方式和营销策略也是一个品牌能否发扬光大被大众所熟纸的关键点。面对科技快速发展的今天以及众多品牌不断地崛起的时代，想要将中古钢琴更好地推广出去，将52钢琴网推广出去，让更多人认可我们的平台，我们的策略也该随着时代的发展而不断改变，只有顺应时代潮流，保持初心才能在中古钢琴租售这个市场中占据一席之地。</p>
+		<!--<p class="ever">To take a trivial example, which of us ever undertakes laborious-->
+				<!--physical exercise.</p>-->
+		<!--<div class="contact-us1-bottom w3layouts-agile">-->
+			<!--<form action="#" method="post">-->
+							<!--<input type="text" placeholder="Name" required="">-->
+									<!--<input type="email" placeholder="Email" required="">-->
+
+									<!--<textarea placeholder="Message" required></textarea>-->
+									<!--<input type="submit" value="Submit" >-->
+
+							<!--</form>-->
+			<!--<div class="home-radio-clock">-->
+				<!--<ul>-->
+					<!--<li><i class="glyphicon glyphicon-home" aria-hidden="true"></i>Our Home</li>-->
+					<!--<li><i class="glyphicon glyphicon-bullhorn" aria-hidden="true"></i>Call Us</li>-->
+					<!--<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i>Opening Time</li>-->
+				<!--</ul>-->
+			<!--</div>-->
+			<!--<div class="home-radio-clock-right">-->
+				<!--<ul>-->
+					<!--<li>4978 Diamond Circle-->
+						<!--<span>Washington, NJ 07087</span></li>-->
+					<!--<li class="lst">(012) 123-456-78</li>-->
+					<!--<li>(012) 123-456-78<span>Mon-Fri:</span><span>09h-17h</span></li>-->
+				<!--</ul>-->
+			<!--</div>-->
+			<!--<div class="clearfix"> </div>-->
+		<!--</div>-->
+		<!--<div class="map">-->
+			<!--<iframe src="" frameborder="0" style="border:0" allowfullscreen=""></iframe>-->
+		<!--</div>-->
+	</div>
+	</div>
+<!-- //contact -->
+<!-- footer -->
+	<!--<div class="footer w3layouts-agile">-->
+		<!--<div class="container">-->
+			<!--<div class="footer-grids">-->
+				<!--<div class="col-md-3 footer-grid-w3layouts-agile">-->
+					<!--<h3 class="title">Services</h3>-->
+					<!--<ul>-->
+						<!--<li><a href="#">Rerum hic tenetur</a></li>-->
+						<!--<li><a href="#">Molestiae non recusandae</a></li>-->
+						<!--<li><a href="#">Voluptates repudiandae</a></li>-->
+						<!--<li><a href="#">Necessitatibus saepe</a></li>-->
+						<!--<li><a href="#">Debitis aut rerum</a></li>-->
+					<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 footer-grid-w3layouts-agile">-->
+					<!--<h3 class="title">Information</h3>-->
+					 <!--<ul>-->
+						<!--<li><a href="#">Quibusdam et aut</a></li>-->
+						<!--<li><a href="#">Testimonials</a></li>-->
+						<!--<li><a href="#">Archives</a></li>-->
+						<!--<li><a href="#">Our Staff</a></li>-->
+					<!--</ul>-->
+				<!--</div>-->
+		    <!--<div class="col-md-3 footer-grid-w3layouts-agile">-->
+					<!--<h3 class="title">More details</h3>-->
+					<!--<ul>-->
+						<!--<li><a href="#">About us</a></li>-->
+						<!--<li><a href="#">Privacy Policy</a></li>-->
+						<!--<li><a href="#">Terms &amp; Conditions</a></li>-->
+						<!--<li><a href="#">Site map</a></li>-->
+					<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="col-md-3 footer-grid-w3layouts-agile contact-grid">-->
+						<!--<h3 class="title">Contact us</h3>-->
+						<!--<ul>-->
+							<!--<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>New York Still Road.</li>-->
+							<!--<li class="adrs">756 gt globel Place</li>-->
+							<!--<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+000 100 444 1111</li>-->
+							<!--<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:example@mail.com">mail@example.com</a></li>-->
+						<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="clearfix"> </div>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+	<!--<div class="copy">-->
+		<!--<div class="container">-->
+			<!--<div class="copy-left-w3l-agile">-->
+				<!--<p>Copyright &copy; 2017.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>-->
+			<!--</div>-->
+			<!--<div class="social-icons">-->
+				<!--<ul>-->
+					<!--<li><a href="#" class="fb"></a></li>-->
+					<!--<li><a href="#"></a></li>-->
+					<!--<li><a href="#" class="gg"></a></li>-->
+					<!--<li><a href="#" class="pn"></a></li>-->
+				<!--</ul>-->
+			<!--</div>-->
+			<!--<div class="clearfix"> </div>-->
+		<!--</div>-->
+	<!--</div>-->
+<!--//footer-->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"> </script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
